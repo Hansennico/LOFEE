@@ -18,6 +18,61 @@ let products = [
         "name": "Cold Brew",
         "price": 24000,
         "image": "./asset/coldbrew.jpg"
+    },
+    {
+        "name": "Cold Brew",
+        "price": 24000,
+        "image": "./asset/coldbrew.jpg"
+    },
+    {
+        "name": "Cold Brew",
+        "price": 24000,
+        "image": "./asset/coldbrew.jpg"
+    },
+    {
+        "name": "Cold Brew",
+        "price": 24000,
+        "image": "./asset/coldbrew.jpg"
+    },
+    {
+        "name": "Cold Brew",
+        "price": 24000,
+        "image": "./asset/coldbrew.jpg"
+    },
+    {
+        "name": "Cold Brew",
+        "price": 24000,
+        "image": "./asset/coldbrew.jpg"
+    },
+    {
+        "name": "Cold Brew",
+        "price": 24000,
+        "image": "./asset/coldbrew.jpg"
+    },
+    {
+        "name": "Cold Brew",
+        "price": 24000,
+        "image": "./asset/coldbrew.jpg"
+    },
+    {
+        "name": "Cold Brew",
+        "price": 24000,
+        "image": "./asset/coldbrew.jpg"
+    },
+    {
+        "name": "Cold Brew",
+        "price": 24000,
+        "image": "./asset/coldbrew.jpg"
+    },
+    {
+        "name": "Cold Brew",
+        "price": 24000,
+        "image": "./asset/coldbrew.jpg"
+    },
+    {
+        "name": "Cold Brew",
+        "price": 24000,
+        "image": "./asset/coldbrew.jpg"
     }
 ]
 
@@ -29,7 +84,7 @@ for (let i = 0; i < products.length; i++) {
                 <h3>${products[i].name}</h3>
                 <img src="${products[i].image}" alt="" class="card-img">
                 <p>Rp. ${products[i].price},-</p>
-                <button type="button" onclick="" class="cart-btn">Add to cart!</button>
+                <button type="button" onclick="" class="cart-btn">Add to cart !</button>
             </div>
         </div>
     `
