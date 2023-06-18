@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/cafe.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+
     <title>LOFEE</title>
 </head>
+
 <body>
+
     <nav>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
@@ -25,14 +27,26 @@
         </ul>
     </nav>
 
-    <div>
-        
+    <!-- cart -->
+    <div class="container2">
+        <div class="sidebar">
+            <div class="head">My Cart <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div></div>
+            <div class="cart"></div>
+            <div id="cartItem">Your cart is empty</div>
+            <div class="foot">
+                <h3>Total</h3>
+                <h2 id="total">Rp. 0,-</h2>
+            </div>
+        </div>
     </div>
 
-    <div class="container">
-        <!-- script/cafe.js will loaded here -->
+    <!-- products -->
+    <div id="container">
+        <!-- cafe.js will loaded here -->
+        <!-- ... -->
     </div>
     
+    <script src="script/cafe.js"></script>
 </body>
-<script src="script/cafe.js"></script>
+
 </html>
