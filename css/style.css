@@ -80,6 +80,26 @@ a.active,a:hover{
     padding: 0 calc(20px + 5vw);
 }
 
+.login{
+    color: white;
+    background-color: none;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.login:hover{
+    color: white;
+    background-color: rgb(205, 187, 153);
+}
+.login:active{
+    color: white;
+    background-color: rgb(222, 206, 177);
+}
+
 /* if screen width below 768px */
 @media(max-width: 1080px){
     nav ul{
@@ -116,5 +136,28 @@ a.active,a:hover{
     }
     .fa-bars{
         background-color: #d9ba8c;
+    }
+    .login{
+        margin-left: 260px;
+        color: white;
+        background-color: none;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        right: 0px;
+        margin-top: 18px;
+        margin-right: 20px;
+        float: right;
+        border: 2px solid;
+        border-radius: 50%;
+    }
+    
+    .login:hover{
+        color: white;
+        background-color: rgb(205, 187, 153);
+    }
+    .login:active{
+        color: white;
+        background-color: rgb(222, 206, 177);
     }
 }
